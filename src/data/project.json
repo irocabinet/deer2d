@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ESB",
+    "type": "System",
+    "name": "ESB",
+    "description": "Componenta arhitecturii care se ocupa de integrarea sistemelor. Bazata pe tehnologia Tibco - BW pentru procesare si Tibco CloudAPI pentru expunerea APi-urilor.",
+    "website":"http://localhost:3000/"
+  },
+  {
+    "id": "MDM",
+    "type": "System",
+    "name": "MDM",
+    "description": "Componenta arhitecturii care se ocupa cu citirea contorilor. Este o componenta critica pentru arhitectura DEER",
+    "year": 2023,
+    "grade": 95
+  },
+  {
+    "id": "WFM",
+    "type": "System",
+    "name": "WFM",
+    "description": "Componenta arhitecturii care se ocupa de interactiunea cu elementele de retea ",
+    "year": 2023,
+    "grade": 80
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "source": "Flux2",
+    "target": "Flux1",
+    "speed": 2
+  },
+  {
+    "source": "Flux1",
+    "target": "Flux3",
+    "speed": 100
+  }
+]
