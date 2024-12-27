@@ -51,7 +51,7 @@ export default function Graph(props) {
       graphRef.current = el;
       if (props.fg) props.fg.current = el; // Legăm referința transmisă prin props
     }}
-    enableNodeDrag={!supportsTouch}
+    // enableNodeDrag={!supportsTouch}
     graphData={props.data}
     onNodeClick={props.handleNodeClick}
     onBackgroundClick={props.handleBackgroundClick}
@@ -59,6 +59,11 @@ export default function Graph(props) {
     nodeVal={nodeSize}
     nodeCanvasObject={renderLabel}
     nodeCanvasObjectMode={() => "after"}
+    cooldownTicks={50} // Motorul fizic rulează câteva iterații înainte de a se opri
+    d3Force="charge"
+    d3AlphaDecay={0.02} // Reduce rata de răcire pentru mai mult spațiu inițial
+    d3VelocityDecay={0.4} // Menține o stabilitate a mișcării
+    nodeRelSize={4} // Crește dimensiunea relativă a nodurilor
     linkDirectionalParticles={(link) => (link.speed === 0 ? 0 : 6)} // 0 particule pentru speed = 0
     linkDirectionalParticleSpeed={(link) =>
       mapSpeedToVelocity(link.speed) // Convertim valoarea speed în viteză

@@ -25,9 +25,12 @@ export default function Header(props) {
 
   return (
     <Box display="flex" style={containerStyle} alignItems="center">
-      <IconButton style={homeButtonStyle} onClick={props.handleHomeClick}>
+      {/* <IconButton style={homeButtonStyle} onClick={props.handleHomeClick}>
         <HomeIcon />
-      </IconButton>
+      </IconButton> */}
+      <IconButton style={homeButtonStyle} onClick={props.handleClick}>
+  <HomeIcon />
+</IconButton>
       <Box fontWeight="fontWeightBold" style={titleStyle}>
         ESB-
       </Box>
