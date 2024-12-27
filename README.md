@@ -2,7 +2,7 @@
 
 A website showcasing all the technologies used, projects worked on, and how they're related.
 
-https://smartshark27.github.io/
+https://irocabinet.github.io/
 
 ## Pushing to GitHub Pages
 
