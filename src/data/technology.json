@@ -1,0 +1,24 @@
+[
+
+  {
+    "id": "Flux1",
+    "type": "flux",
+    "name": "ESB",
+    "description": "Citeste un contor",
+    "skillLevel": 1
+  },
+  {
+    "id": "Flux2",
+    "type": "flux",
+    "name": "instalare contor",
+    "description": "Instaleaza un contor",
+    "skillLevel": 2
+  },
+  {
+    "id": "Flux3",
+    "type": "flux",
+    "name": "Dezinstalare contor",
+    "description": "Dezinstaleaza un contor",
+    "skillLevel": 3
+  }
+]
