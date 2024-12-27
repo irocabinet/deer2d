@@ -8,10 +8,11 @@
     "@material-ui/icons": "^4.9.1",
     "@opensearch-project/opensearch": "^2.13.0",
     "express": "^4.21.2",
+    "force-graph": "^1.38.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-force-graph-2d": "^1.15.3",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "ws": "^8.18.0"
   },
   "scripts": {
@@ -20,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^6.2.0"
   }
 }

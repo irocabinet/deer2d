@@ -1,6 +1,5 @@
-# interactive-resume
+# interactive-graph
 
-A website showcasing all the technologies used, projects worked on, and how they're related.
 
 https://irocabinet.github.io/
 
